@@ -1,0 +1,52 @@
+/* Estilos para centrar el carrusel */
+.carousel {
+    max-width: 300px; /* Ajustar el tamaño del carrusel aquí */
+    margin: 0 auto; /* Centrando el carrusel */
+}
+
+/* Estilos para las miniaturas */
+.img-thumbnail {
+    width: 60px; /* Ancho deseado de las miniaturas */
+    height: auto; /* Altura automática */
+    cursor: pointer; /* Cambiar cursor al hacer hover */
+}
+
+/* Estilos para el contenedor de descripción */
+.description-container {
+    max-width: 400px; /* Ajustar el tamaño del contenedor de descripción aquí */
+    margin-left: 20px; /* Espacio entre descripción y carrusel */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Estilos para el precio */
+.description-container .price {
+    font-size: 24px; /* Tamaño de fuente más grande para el precio */
+    color: rgb(1, 1, 117); /* Color azul para el precio */
+    font-weight: bold; /* Negritas para resaltar */
+}
+
+/* Estilos adicionales para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Estilos para el título y autor */
+.description-container h2 {
+    margin: 12px 0;
+}
+
+
+
+/* Ajustar la descripción y precio */
+.description-container p, .description-container .price {
+    margin: 10px 0;
+}
+
+/* Negritas para los títulos específicos */
+.description-container p strong {
+    font-weight: bold; /* Negritas para resaltar */
+}

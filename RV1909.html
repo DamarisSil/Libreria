@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Biblias
+                </button>
+                <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownBiblias">
+                  <a class="dropdown-item" href="RV1909.html">Reina Valera 1909</a>
+                  <a class="dropdown-item" href="RV1960.html">Reina Valera 1960</a>
+                </div>
+
+              </li>
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Evangelismo
+                </button>
+                <div class="dropdown-menu dropdown-menu-dark">
+                  <a class="dropdown-item" href="#">Misión Integral</a>
+                  <a class="dropdown-item" href="#">Evangelismo Personal</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Regalos
+                </button>
+                <div class="dropdown-menu dropdown-menu-dark">
+                  <a class="dropdown-item" href="#">Para Jóvenes</a>
+                  <a class="dropdown-item" href="#">Para Niños</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+<!-- Novedades Section -->
+<div class="container novedades-section">
+    <h1 class="text-center my-4">Biblias</h1>
+    <div class="row" id="novedadesContainer">
+        <!-- Los libros serán insertados aquí por JavaScript -->
+    </div>
+</div>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
+    <script src="1909.js"></script>
+</body>
+</html>
